@@ -1,0 +1,70 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 85%;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    text-align: center;    
+  }
+#survey-form{
+    background-color: rgba(21, 3, 56, 0.5);
+    width: 60%;
+    margin: auto;
+    border-radius: 7px;
+    padding: 20px 40px 50px 40px;
+    text-align: left;
+}
+#description{
+    font-style: italic;
+    font-size: 1.1rem;
+}
+p{
+    margin: 15px 0;
+}
+#title{
+    color: teal;
+}
+div{
+    margin: 20px 0;
+}
+div > label{
+    display: block;
+    margin-bottom: 10px;
+}
+div > input{
+    padding: 10px 0 10px 10px;
+    width: 98%;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+select{
+    padding: 10px 0 10px 10px;
+    width: 99%;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#comment{
+    display: block;
+    margin: 5px;
+}
+textarea{
+    width: 97%;
+    display: block;
+    margin: 15px 0;
+    padding: 13px;
+    font-size: 1.1rem;
+    padding-right: 0;
+    }
+#comments{
+    margin: 15px 0;
+}
+button{
+    padding: 15px 15px;
+    margin: auto;
+    border: none;
+    width: 99%;
+    background-color: rgb(4, 61, 61);
+    color: #fff;
+}
