@@ -1,28 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    width: 85%;
-    margin: 50px auto;
+    margin: auto;
     font-size: 1.2rem;
-    text-align: center;    
+    text-align: center;   
+    background-image: url(https://static.remove.bg/sample-gallery/cars/car8-thumbnail.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
   }
+
 #survey-form{
-    background-color: rgba(21, 3, 56, 0.5);
+    z-index: 2;
+    position: relative;
+    background-color: rgba(12, 3, 29, 0.7);
     width: 60%;
     margin: auto;
     border-radius: 7px;
     padding: 20px 40px 50px 40px;
     text-align: left;
+    color: #fff;
 }
+
 #description{
+    z-index: 2;
     font-style: italic;
+    position: relative;
+    color: #fff;
     font-size: 1.1rem;
 }
 p{
     margin: 15px 0;
 }
 #title{
-    color: teal;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    margin-top: 30px;
 }
 div{
     margin: 20px 0;
@@ -65,6 +84,6 @@ button{
     margin: auto;
     border: none;
     width: 99%;
-    background-color: rgb(4, 61, 61);
+    background-color: rgb(9, 122, 122);
     color: #fff;
 }
