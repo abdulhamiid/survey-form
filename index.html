@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">PRACTICE SURVEY FORM</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" placeholder="Enter your name" id="name">
+        </div>
+        <div>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="number" id="number-label">Age</label>
+            <input type="number" min="15" max="100" placeholder="Age">
+        </div>
+        
+        <!-- SELECT BUTTONS -->
+        <p>Which option best describ your current role</p>
+        <select name="dropdown" id="dropdown" placeholder="Select current role">
+            <option value="student">Student</option>
+            <option value="full-time-Job">Full time Job</option>
+            <option value="full-time-learner">Full time learner</option>
+            <option value="prefer-not-say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+        <p>What is you favourite feature of freeCodeCamp</p>
+        <select name="dropdown" id="dropdown">
+            <option value="challenges">Challenges</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+            <option value="projects">Projects</option>
+        </select>
+        
+        <!-- RADIO BUTTONS -->
+        <section>
+            <p>Would you like to recomment freeCodeCamp to a friend</p>        
+            <input type="radio" name="definitely-maybe-notsure">
+            <label for="definitely">Definitely</label>
+            <br>
+            <input type="radio" name="definitely-maybe-notsure">
+            <label for="maybe">Maybe</label>
+            <br>
+            <input type="radio" name="definitely-maybe-notsure">
+            <label for="not_sure">Not Sure</label>
+        </section>
+
+            
+            <!-- CHECK BOXES --> 
+        <section>
+            <p>Would you like to see us improve</p>        
+            <input type="checkbox" value="lovecat">
+            <label for="loveCat">Front End Poject</label>
+            <br>
+            <input type="checkbox" value="hatecat">
+            <label for="hateCat">Back End Project</label>
+            <br>
+        </section>
+        
+    <label for="comments" id="comments">Any comments or suggestion</label>
+    <textarea name="comments" id="" cols="30" rows="5" Placeholder="Add your comment"></textarea>
+    <button id="submit">Submit</button>
+  
+</form>
+    
+</body>
+</html>
