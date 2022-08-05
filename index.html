@@ -11,6 +11,9 @@
     <title>Survey Form</title>
 </head>
 <body>
+    <main>
+
+    </main>
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
@@ -24,12 +27,12 @@
         </div>
         <div>
             <label for="number" id="number-label">Age</label>
-            <input type="number" min="15" max="100" placeholder="Age">
+            <input type="number"  id="number" min="15" max="100" placeholder="Age">
         </div>
         
         <!-- SELECT BUTTONS -->
         <p>Which option best describ your current role</p>
-        <select name="dropdown" id="dropdown" placeholder="Select current role">
+        <select name="dropdown" id="dropdown">
             <option value="student">Student</option>
             <option value="full-time-Job">Full time Job</option>
             <option value="full-time-learner">Full time learner</option>
@@ -37,7 +40,7 @@
             <option value="other">Other</option>
         </select>
         <p>What is you favourite feature of freeCodeCamp</p>
-        <select name="dropdown" id="dropdown">
+        <select name="dropdown">
             <option value="challenges">Challenges</option>
             <option value="community">Community</option>
             <option value="open-source">Open Source</option>
@@ -47,13 +50,13 @@
         <!-- RADIO BUTTONS -->
         <section>
             <p>Would you like to recomment freeCodeCamp to a friend</p>        
-            <input type="radio" name="definitely-maybe-notsure">
+            <input type="radio" id="definitely" name="definitely-maybe-notsure">
             <label for="definitely">Definitely</label>
             <br>
-            <input type="radio" name="definitely-maybe-notsure">
+            <input type="radio" id="maybe" name="definitely-maybe-notsure">
             <label for="maybe">Maybe</label>
             <br>
-            <input type="radio" name="definitely-maybe-notsure">
+            <input type="radio" id="not_sure" name="definitely-maybe-notsure">
             <label for="not_sure">Not Sure</label>
         </section>
 
@@ -61,17 +64,17 @@
             <!-- CHECK BOXES --> 
         <section>
             <p>Would you like to see us improve</p>        
-            <input type="checkbox" value="lovecat">
+            <input type="checkbox" id="loveCat" value="lovecat">
             <label for="loveCat">Front End Poject</label>
             <br>
-            <input type="checkbox" value="hatecat">
+            <input type="checkbox" id="hateCat" value="hatecat">
             <label for="hateCat">Back End Project</label>
             <br>
         </section>
         
-    <label for="comments" id="comments">Any comments or suggestion</label>
-    <textarea name="comments" id="" cols="30" rows="5" Placeholder="Add your comment"></textarea>
-    <button id="submit">Submit</button>
+    <label id="comments">Any comments or suggestion</label>
+    <textarea name="comments" cols="30" rows="5" Placeholder="Add your comment"></textarea>
+    <button type="button" id="submit">Submit</button>
   
 </form>
     

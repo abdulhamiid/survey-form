@@ -1,89 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    margin: auto;
-    font-size: 1.2rem;
-    text-align: center;   
-    background-image: url(https://static.remove.bg/sample-gallery/cars/car8-thumbnail.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-  }
-
-#survey-form{
-    z-index: 2;
-    position: relative;
-    background-color: rgba(12, 3, 29, 0.7);
-    width: 60%;
-    margin: auto;
-    border-radius: 7px;
-    padding: 20px 40px 50px 40px;
-    text-align: left;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#description{
-    z-index: 2;
-    font-style: italic;
-    position: relative;
-    color: #fff;
-    font-size: 1.1rem;
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: center;
+  background-image: url(https://static.remove.bg/sample-gallery/cars/car8-thumbnail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
 }
-p{
-    margin: 15px 0;
+
+#survey-form {
+  z-index: 2;
+  position: relative;
+  background-color: rgba(12, 3, 29, 0.7);
+  width: 60%;
+  margin: auto;
+  border-radius: 7px;
+  padding: 20px 40px 50px 40px;
+  text-align: left;
+  color: #fff;
 }
-#title{
-    z-index: 2;
-    position: relative;
-    color: #fff;
-    margin-top: 30px;
+
+#description {
+  z-index: 2;
+  font-style: italic;
+  position: relative;
+  color: #fff;
+  font-size: 1.1rem;
 }
-div{
-    margin: 20px 0;
+
+p {
+  margin: 15px 0;
 }
-div > label{
-    display: block;
-    margin-bottom: 10px;
+
+#title {
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  margin-top: 30px;
 }
-div > input{
-    padding: 10px 0 10px 10px;
-    width: 98%;
-    border:none;
-    border-radius: 5px;
-    font-size: 15px;
+
+/* div {
+  margin: 20px 0;
+} */
+
+div > label {
+  display: block;
+  margin-bottom: 10px;
 }
-select{
-    padding: 10px 0 10px 10px;
-    width: 99%;
-    border:none;
-    border-radius: 5px;
-    font-size: 15px;
+
+div > input {
+  padding: 10px 0 10px 10px;
+  width: 98%;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
 }
-#comment{
-    display: block;
-    margin: 5px;
+
+select {
+  padding: 10px 0 10px 10px;
+  width: 99%;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
 }
-textarea{
-    width: 97%;
-    display: block;
-    margin: 15px 0;
-    padding: 13px;
-    font-size: 1.1rem;
-    padding-right: 0;
-    }
-#comments{
-    margin: 15px 0;
+
+#comment {
+  display: block;
+  margin: 5px;
 }
-button{
-    padding: 15px 15px;
-    margin: auto;
-    border: none;
-    width: 99%;
-    background-color: rgb(9, 122, 122);
-    color: #fff;
+
+textarea {
+  width: 97%;
+  display: block;
+  margin: 15px 0;
+  padding: 13px;
+  font-size: 1.1rem;
+  padding-right: 0;
+}
+
+#comments {
+  margin: 15px 0;
+}
+
+button {
+  padding: 15px 15px;
+  margin: auto;
+  border: none;
+  width: 99%;
+  background-color: rgb(9, 122, 122);
+  color: #fff;
 }
